@@ -65,6 +65,7 @@ class CalculatorBrain
                         newOpStack.append(.Operand(operand))
                     }
                 }
+                opStack = newOpStack
             }
         }
     }
